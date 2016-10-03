@@ -1,0 +1,51 @@
+.affix{
+    top: 0;
+    width: 100%;
+}
+.affix + .ct{
+    padding-top : 70px;
+}
+.navbar-inverse{
+    background-color: #f2f5f5;
+    height: 60px;
+    border: 0px;
+}
+a.navbar-brand{
+    padding: 0;
+}
+.logoimg{
+    height: 60px;
+    width: 100px;
+    margin: 0px !important;    
+}
+.search{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.search-bar{
+    height: 40px;
+}
+.search-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #4d4dff;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.menu{
+    padding-top: 7px;
+}
+.menu li a{
+    color: black !important;
+    font-weight: bold;
+    font-size: 17px;
+}
+.menu li a:hover{
+    color: #4d4dff;
+}
+.ct{
+    height: 2000px;
+    /*background-color: lightgreen;*/
+}

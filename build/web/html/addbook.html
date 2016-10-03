@@ -11,13 +11,13 @@
     </head>
     <body>
         <div class="container">
-        <form method="get">
+        <form:form action="" method="post" modelAttribute="form">
             <div class="row">
                 <div class="col-md-3 mylabel">
                     <label>Book Name:</label> 
                 </div>
                 <div class="col-md-5 mycontent">
-                    <input name="bookname" type="text"> <br>                    
+                    <form:input path="" name="bookname" type="text"> <br>                    
                 </div>
             </div>
             <div class="row">
@@ -25,7 +25,7 @@
                     <label>Header:</label> 
                 </div>
                 <div class="col-md-5 mycontent">
-                    <input name="header" type="text"/>
+                    <form:input path=""  name="header" type="text"/>
                 </div>
             </div>
             <div class="row">
@@ -33,7 +33,7 @@
                     <label>Content:</label>
                 </div>
                 <div class="col-md-5 mycontent">
-                    <textarea name="content" rows="5" cols="30"></textarea>
+                    <form:textarea path="" name="content" rows="5" cols="30"/>
                 </div>
             </div>
             <div class="row">
@@ -41,7 +41,7 @@
                     <label>Publisher:</label>
                 </div>
                 <div class="col-md-5 mycontent">
-                    <input name="publisher" type="text" list="pls"/>
+                    <form:input name="publisher" type="text" list="pls"/>
                     <datalist id="pls">
                         <option value="NXB Kim Đồng">
                         <option value="NXB Trẻ">
@@ -101,7 +101,7 @@
                     <input type="submit" value="Thêm Sách"/>
                 </div>
             </div>
-        </form>
+        </form:form>
         </div>
     </body>
 </html>
